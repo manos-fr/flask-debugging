@@ -43,6 +43,10 @@ def get_iss_location():
 
 
 def get_iss_pass_times(lat, lon):
+    """
+    DEPRECATED: ISS Pass predictions are now turned off. 
+    Real time current ISS location and number of people in space will continue to operate.
+    """
     params = {
         'lat': lat,
         'lon': lon
